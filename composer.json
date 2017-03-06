@@ -1,0 +1,31 @@
+{
+    "name": "omnipay/zcredit",
+    "type": "library",
+    "description": "Z-credit.co.il driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "zcredit"
+    ],
+    "homepage": "https://github.com/bbrandtlv/omnipay-zcredit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexei Kositsin",
+            "email": "alxkos.mail@gmail.com"
+        },
+        {
+            "name": "Omnipay Contributors",
+            "homepage": "https://github.com/bbrandtlv/omnipay-zcredit/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Zcredit\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    }
+}
